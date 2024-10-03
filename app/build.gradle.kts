@@ -69,13 +69,10 @@ dependencies {
 
     //Layout
     implementation (libs.constraintlayout)
-
     //Navigation
     implementation (libs.navigation)
-    //viewmodel
-//    implementation(libs.androidx.lifecycle.)
-    //Room
 
+    //Room
     implementation (libs.room.runtime)
     ksp(libs.room.compiler)
     implementation(libs.room.ktx)
